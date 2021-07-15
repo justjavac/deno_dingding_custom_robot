@@ -5,7 +5,28 @@
 ## 使用
 
 ```bash
-deno run --allow-net --allow-env https://cdn.jsdelivr.net/ghjustjavac/deno_dingding_custom_robot/mod.ts hello world
+deno run --allow-net --allow-env https://raw.githubusercontent.com/justjavac/deno_dingding_custom_robot/main/mod.ts helloworld
+```
+
+或者短域名版：
+
+```bash
+deno run --allow-net --allow-env https://git.io/JWRiD helloworld
+```
+
+如果你访问 github 不流畅，可以使用 jsdelivr 的 CDN 加速服务：
+
+```bash
+deno run --allow-net --allow-env https://cdn.jsdelivr.net/ghjustjavac/deno_dingding_custom_robot/mod.ts helloworld
+```
+
+如果后面没有参数，则进入交互模式：
+
+```bash
+$ deno run --allow-net --allow-env https://git.io/JWRiD
+请输入你想要发送的内容，按回车键结束：
+hello<回车>
+send success 👌
 ```
 
 ## 核心代码
