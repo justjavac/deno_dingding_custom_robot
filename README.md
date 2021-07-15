@@ -1,6 +1,12 @@
 # deno_dingding_custom_robot
 
-钉钉自定义机器人
+钉钉自定义机器人。
+
+- 钉钉群：[Deno机器人交流群](https://qr.dingtalk.com/action/joingroup?code=v1,k1,xWl5Lo8aR3diVQLiSB793WXGDYesXj9KqxJdmlgzWZo=&_dt_no_comment=1&origin=11)
+
+<p align="center">
+    <img width="320" alt="Buy me a coffee" src="./qrcode.png"/>
+</p>
 
 ## 使用
 
