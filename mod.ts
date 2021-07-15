@@ -3,10 +3,8 @@ import hmacSha256 from "https://cdn.skypack.dev/crypto-js/hmac-sha256?dts";
 import base64 from "https://cdn.skypack.dev/crypto-js/enc-base64?dts";
 
 // deno-lint-ignore camelcase
-const access_token = Deno.env.get("ACCESS_TOKEN") ??
-  "2366c533ad78c5c6970961c5ceda21a7a146ffe66b3e8896595bee889e3c8811";
-const secret = Deno.env.get("SECRET") ??
-  "SEC75d54a01c0d3a19f59989de2818357395bcf85fb8b49f80032c057b26dc0b360";
+const access_token = Deno.env.get("ACCESS_TOKEN");
+const secret = Deno.env.get("SECRET");
 
 if (access_token === undefined) {
   console.error("请在环境变量中设置 ACCESS_TOKEN");
