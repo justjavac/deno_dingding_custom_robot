@@ -39,7 +39,6 @@ send success 👌
 
 ```ts
 const access_token = Deno.env.get("ACCESS_TOKEN");
-const secret = Deno.env.get("SECRET");
 
 const url = new URL("https://oapi.dingtalk.com/robot/send");
 url.searchParams.append("access_token", access_token);
